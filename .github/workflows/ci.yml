@@ -1,0 +1,20 @@
+name: Deploy
+on:
+  push:
+    branches:
+    - master
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: ssh 
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: 22
+        script: |
+          cd ~/blog
+          git pull
+          mkdocs build --site-dir /var/www/blog
