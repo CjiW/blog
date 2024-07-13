@@ -2,3 +2,43 @@ site_name: cjiw.site
 site_url: https://www.cjiw.site
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  language: zh
+  palette:
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - content.code.annotate
+
+extra:
+  homepage: https://www.cjiw.site
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CjiW
+    - icon: fontawesome/solid/envelope
+      link: mailto:cjiwe@outlook.com
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

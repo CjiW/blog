@@ -17,4 +17,4 @@ jobs:
         script: |
           cd ~/blog
           git pull
-          mkdocs build --site-dir /var/www/blog
+          ~/.local/bin/mkdocs build --site-dir /var/www/blog

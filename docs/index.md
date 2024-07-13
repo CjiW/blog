@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+# 主页
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> Blog: [cjiw.site](https://www.cjiw.site)  
+> Email: [Outlook](mailto:cjiwe@outlook.com)  
+> GitHub: [CjiW's GitHub](https://github.com/CjiW)  
 
-## Commands
+## 技术
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Golang、Rust、C++
 
-## Project layout
+## 其他
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+游戏：Minecraft、Genshin Impact
+
+影视：记录片、动漫
+
+## 最近关注
+
+编译技术、虚拟化技术
+
