@@ -10,9 +10,9 @@ Golang、Rust、C++
 
 ## 其他
 
-游戏：Minecraft、Genshin Impact
+游戏：Minecraft、Genshin Impact、Oxygen Not Included
 
-影视：记录片、动漫
+影视：纪录片、动漫
 
 ## 最近关注
 
