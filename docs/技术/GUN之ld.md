@@ -188,4 +188,4 @@ archives是共享文件的列表，它们可以是显式的名字或者-l选项�
 
 链接器将 `.init` 段与 `.finit` 段合并，并产生 `_init()` 与 `_finit()`。
 
-![call_graph](http://img.cjiw.site/callgraph.png)
+![call_graph](../assets/callgraph.png)

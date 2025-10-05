@@ -1,7 +1,7 @@
 
 Linux启动过程大致分为以下几个阶段：
 
-![image-20240326093746386](https://img.cjiw.site/image-20240326093746386.png)
+![linuxboot](../assets/linuxboot.png)
 
 ### BIOS引导阶段：
 
